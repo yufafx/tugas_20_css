@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: rgb(240, 240, 240);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container2 {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: relative;
+    margin-left: 75px;
+}
+
+.box {
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0 1px 1px rgb(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  color: white;
+  width: 200px;
+}
+
+.box1 {
+  background-color: lightseagreen;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}
+
+.box4 {
+  background-color: violet;
+  position: absolute;
+}
+
+.box5 {
+  background-color: darkblue;
+}
+
+.box6 {
+  background-color: yellow;
+}
+
+.box7 {
+  background-color: orange;
+}
+
+.box8 {
+  background-color: red;
+}
+
+.box9 {
+  background-color: grey;
+}
+
+.box10 {
+  background-color: darkgray;
+}
